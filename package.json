@@ -1,20 +1,25 @@
 {
-  "name": "chaibackend",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "a basic app to deploy",
+  "description": "",
   "keywords": [
-    "node",
+    "javascript",
+    "backend",
     "chai"
   ],
+  "homepage": "https://github.com/RaunakMishr/chaibackend#readme",
+  "bugs": {
+    "url": "https://github.com/RaunakMishr/chaibackend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaunakMishr/chaibackend.git"
+  },
   "license": "ISC",
   "author": "raunak",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
